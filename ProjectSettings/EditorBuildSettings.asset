@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/SDKTestSceneSelector.unity
+    guid: 14d0b56e5d10fec4682a2f94b859f7e2
+  - enabled: 1
+    path: Assets/Scenes/LoadingSystemScene.unity
+    guid: 9a6c8872ceff84caca2915122c36c43a
+  - enabled: 1
+    path: Assets/Scenes/ControllerTests/GameboardControllersTest.unity
+    guid: 08777ea7f12b4f7408b149bba1de21bc
+  - enabled: 1
+    path: Assets/Scenes/ToolsTest.unity
+    guid: 3c0cef148f828c14fbcbe26c05ad15b0
+  - enabled: 1
+    path: Assets/Scenes/GameCaretakerTest.unity
+    guid: b0ce40f50de0f4d4a832391d95893042
+  - enabled: 1
+    path: Assets/Scenes/DiceWidget.unity
+    guid: 3d1f7257c42ae0e4698d3aa420af236a
+  - enabled: 1
+    path: Assets/Scenes/ControllerTests/CardControllerTest.unity
+    guid: ac32f25fbd310f24a9b634065d8ca38a
+  - enabled: 1
+    path: Assets/Scenes/CardPracticalExample.unity
+    guid: b2270927e299e6c4ba188871a08114e0
+  - enabled: 1
+    path: Assets/Scenes/ControllerTests/DiceControllerTest.unity
+    guid: f098b790553dd92468c2929d3a72eae9
+  - enabled: 1
+    path: Assets/Scenes/ControllerTests/DrawerControllerTest.unity
+    guid: ad5cd4dd7e291e443ad103930d27661d
+  - enabled: 1
+    path: Assets/Scenes/ControllerTests/UserPresenceControllerTest.unity
+    guid: a945b30492eb11b4ea1c63ffc933911d
+  - enabled: 1
+    path: Assets/Scenes/ControllerTests/NewTouchControllerTest.unity
+    guid: 5e39039060a613c488a4273b4bd32579
+  m_configObjects: {}
