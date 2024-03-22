@@ -44,4 +44,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ControllerTests/NewTouchControllerTest.unity
     guid: 5e39039060a613c488a4273b4bd32579
+  - enabled: 1
+    path: Assets/Scenes/YuGiOh/YStartScene.unity
+    guid: 03615cc81423c244daa7f8cfbbbf58c2
+  - enabled: 1
+    path: Assets/Scenes/YuGiOh/YPlay.unity
+    guid: a2feefc14b315dd4795d7414d3dcbe0c
   m_configObjects: {}
