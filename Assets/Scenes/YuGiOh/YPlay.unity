@@ -2242,8 +2242,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77d07ecf131c6ee86bcbdddf6580527e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UndoButton: {fileID: 0}
-  RedoButton: {fileID: 0}
 --- !u!4 &2143915977
 Transform:
   m_ObjectHideFlags: 0
@@ -2293,7 +2291,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Player 2
+  m_Text: Duelist 2
 --- !u!114 &8115318858808197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2327,7 +2325,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Player 1
+  m_Text: Duelist 1
 --- !u!224 &8743812726317456832
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2477,7 +2475,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -376, y: -1383}
+  m_AnchoredPosition: {x: -376, y: -1532}
   m_SizeDelta: {x: 369.854, y: 81.337}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8743812726380355654
@@ -2673,7 +2671,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -556, y: -288.56012}
+  m_AnchoredPosition: {x: -556, y: -184}
   m_SizeDelta: {x: 369.854, y: 83.12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8743812727067055947
@@ -3122,7 +3120,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1147, y: -620}
+  m_AnchoredPosition: {x: -1147, y: -755}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &8743812727657936634
@@ -3137,7 +3135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 253be1e3a350e07cbb1d3ec7b0ac4545, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerName: Player 1
+  PlayerName: Duelist 1
   Hitpoints: 4000
   LabelText: {fileID: 8115318858808197}
 --- !u!114 &8743812727657936635
@@ -3586,7 +3584,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1050, y: 683}
+  m_AnchoredPosition: {x: -1050, y: 763}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &8743812728079565301
@@ -3619,7 +3617,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 253be1e3a350e07cbb1d3ec7b0ac4545, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerName: Player 2
+  PlayerName: Duelist 2
   Hitpoints: 4000
   LabelText: {fileID: 8115318173895816}
 --- !u!114 &8743812728079565304

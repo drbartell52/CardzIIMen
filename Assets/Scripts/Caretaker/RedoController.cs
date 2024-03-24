@@ -9,8 +9,8 @@ namespace Gameboard.Examples
 {
     public class RedoController : MonoBehaviour
     {
-        public GameObject UndoButton;
-        public GameObject RedoButton;
+        //public GameObject UndoButton;
+        //public GameObject RedoButton;
 
         // Start is called before the first frame update
         void Start()
@@ -21,8 +21,8 @@ namespace Gameboard.Examples
         // Update is called once per frame
         void Update()
         {
-            UndoButton.SetActive(GameCaretaker.GetInstance().CanUndo());
-            RedoButton.SetActive(GameCaretaker.GetInstance().CanRedo());
+            //UndoButton.SetActive(GameCaretaker.GetInstance().CanUndo());
+            //RedoButton.SetActive(GameCaretaker.GetInstance().CanRedo());
         }
 
         public void Undo()
