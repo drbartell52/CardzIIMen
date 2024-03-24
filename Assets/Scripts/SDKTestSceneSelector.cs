@@ -16,7 +16,7 @@ public class SDKTestSceneSelector : MonoBehaviour
         
         if (GoToControllers == true)
         {
-            LoadSceneName("GameboardControllersTest");
+            LoadSceneName("YStartScene");
         }
     }
     
@@ -110,5 +110,15 @@ public class SDKTestSceneSelector : MonoBehaviour
     public void Button_SDKTestSceneSelector()
     {
         LoadSceneName("SDKTestSceneSelector");
+    }
+    
+    public void Button_YStartScene()
+    {
+        LoadSceneName("YStartScene");
+    }
+    
+    public void Button_YPlay()
+    {
+        LoadSceneName("YPlay");
     }
 }

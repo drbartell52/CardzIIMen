@@ -36,7 +36,19 @@ namespace Gameboard.Examples
 
         public void HarmPlayer()
         {
-            HarmCommand command = new HarmCommand(mPlayer, 10);
+            HarmCommand command = new HarmCommand(mPlayer, 25);
+            GameCaretaker.GetInstance().Execute(command);
+        }
+        
+        public void HarmPlayer100()
+                {
+                    HarmCommand command = new HarmCommand(mPlayer, 100);
+                    GameCaretaker.GetInstance().Execute(command);
+                }
+        
+        public void HarmPlayer500()
+        {
+            HarmCommand command = new HarmCommand(mPlayer, 500);
             GameCaretaker.GetInstance().Execute(command);
         }
 
