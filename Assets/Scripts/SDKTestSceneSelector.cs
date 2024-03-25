@@ -119,6 +119,6 @@ public class SDKTestSceneSelector : MonoBehaviour
     
     public void Button_YPlay()
     {
-        LoadSceneName("YPlay");
+        LoadSceneName("danYPlay");
     }
 }
