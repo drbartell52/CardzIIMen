@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,6 +11,7 @@ namespace Gameboard.Examples
     {
         private string mName;
         private int mHitpoints;
+        public Action<int> OnHitpointChange;
 
         public Player(string name, int hitpoints)
         {
@@ -20,11 +22,14 @@ namespace Gameboard.Examples
         public void AddHitpoints(int delta)
         {
             mHitpoints += delta;
+            OnHitpointChange?.Invoke(mHitpoints);
         }
 
         public void SubtractHitpoints(int delta)
         {
             mHitpoints -= delta;
+            mHitpoints = Mathf.Max(mHitpoints, 0);
+            OnHitpointChange?.Invoke(mHitpoints);
         }
 
         public string GetName()

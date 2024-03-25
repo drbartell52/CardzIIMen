@@ -12,7 +12,7 @@ namespace Gameboard.Examples
         public string PlayerName;
         public int Hitpoints;
         public Text LabelText;
-
+        public Player Player => mPlayer;
         private Player mPlayer;
 
         void Awake()
@@ -20,12 +20,6 @@ namespace Gameboard.Examples
             mPlayer = new Player(PlayerName, Hitpoints);
             // Register the players as a stateful element to be tracked.
             GameCaretaker.GetInstance().RegisterOriginator(mPlayer);
-        }
-
-        // Start is called before the first frame update
-        void Start()
-        {
-
         }
 
         // Update is called once per frame
@@ -56,6 +50,11 @@ namespace Gameboard.Examples
         {
             HealCommand command = new HealCommand(mPlayer, 10);
             GameCaretaker.GetInstance().Execute(command);
+        }
+
+        public Player GetPlayer()
+        {
+            return mPlayer;
         }
     }
 }
