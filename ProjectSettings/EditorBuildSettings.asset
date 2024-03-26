@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/YuGiOh/YStartScene.unity
     guid: 03615cc81423c244daa7f8cfbbbf58c2
   - enabled: 1
-    path: Assets/Scenes/YuGiOh/YPlay.unity
-    guid: a2feefc14b315dd4795d7414d3dcbe0c
+    path: Assets/Scenes/YuGiOh/danYPlay.unity
+    guid: 474e7c9135a22a3458c41971889aa13a
   m_configObjects: {}

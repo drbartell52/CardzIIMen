@@ -25,7 +25,7 @@ namespace Gameboard.Examples
         // Update is called once per frame
         void Update()
         {
-            LabelText.text = mPlayer.GetName() + ": " + mPlayer.GetHitpoints();
+            LabelText.text = mPlayer.GetName() + ":    " + mPlayer.GetHitpoints();
         }
 
         public void HarmPlayer()
