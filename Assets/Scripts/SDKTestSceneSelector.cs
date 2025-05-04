@@ -16,7 +16,7 @@ public class SDKTestSceneSelector : MonoBehaviour
         
         if (GoToControllers == true)
         {
-            LoadSceneName("korbinYStartScene");
+            LoadSceneName("YStartScene");
         }
     }
     
